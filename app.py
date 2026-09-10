@@ -175,17 +175,17 @@ st.markdown(f"""
 """, unsafe_allow_html=True)
 
 # ---------------------------------------------------------
-# 3. HEADER NAVIGASI KAPSUL (ROUTING STREAMLIT DIPERBAIKI)
+# 3. HEADER NAVIGASI KAPSUL (Tautan Navigasi Diperbaiki)
 # ---------------------------------------------------------
 st.markdown("""
 <div class="capsule-navbar">
-    <a href="/" target="_self" class="nav-item active">Home</a>
-    <a href="/Education" target="_self" class="nav-item">Education</a>
-    <a href="/Technical_Skills" target="_self" class="nav-item">Skills</a>
+    <a href="./" target="_self" class="nav-item active">Home</a>
+    <a href="./Education" target="_self" class="nav-item">Education</a>
+    <a href="./Technical_Skills" target="_self" class="nav-item">Skills</a>
     <div class="navbar-logo">✨ AZ ZAHRA</div>
-    <a href="/Experience" target="_self" class="nav-item">Experience</a>
-    <a href="/Project2" target="_self" class="nav-item">Projects</a>
-    <a href="/Sertifikat" target="_self" class="nav-item">Certificates</a>
+    <a href="./Experience" target="_self" class="nav-item">Experience</a>
+    <a href="./Project2" target="_self" class="nav-item">Projects</a>
+    <a href="./Sertifikat" target="_self" class="nav-item">Certificates</a>
 </div>
 """, unsafe_allow_html=True)
 
